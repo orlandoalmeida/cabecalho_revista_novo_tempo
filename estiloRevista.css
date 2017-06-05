@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html, body{
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.quadro{
+	display: flex;
+	margin: 0px;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.revista{
+	height: 600px;
+	width: 1080px;
+}
+
+.minhaClasse{
+	height: auto;
+	width: 400px !important;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.cabecalho{
+	display: flex;
+	box-sizing: border-box;
+	height: auto;
+	width: 100%;
+	background-color: rgba(0, 52, 100, 1);
+	align-items: center;
+	justify-content: space-around;
+	box-shadow: 0px 3px 55px  rgba(0, 52, 100, 1);
+}
+
+img{
+	width: 400px;
+	height: 100px;
+}
+
+h1{
+	color: white;
+}
